@@ -2,7 +2,8 @@ import random
 import sys
 from enum import Enum
 
-class RPS(Enum):
+ # Enums are used to give names to constants, which makes the code easier to read and maintain. Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc.
+class RPS(Enum): 
   ROCK = 1
   PAPER = 2
   SCISSOR = 3
